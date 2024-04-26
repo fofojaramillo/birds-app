@@ -84,9 +84,9 @@ function predecir() {
         var arr = []; //El arreglo completo
         var arr150 = []; //Al llegar a arr150 posiciones se pone en 'arr' como un nuevo indice
         for (var p=0, i=0; p < imgData.data.length; p+=4) {
-            var red = imgData.data[p];
-            var green = imgData.data[p+1];
-            var blue = imgData.data[p+2];
+            var red = imgData.data[p]/255;
+            var green = imgData.data[p+1]/255;
+            var blue = imgData.data[p+2]/255;
             arr150.push([red, green, blue]); //Agregar al arr150 y normalizar a 0-1. Aparte queda dentro de un arreglo en el indice 0... again
             if (arr150.length == 224) {
                 arr.push(arr150);
