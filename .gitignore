@@ -1,3 +1,4 @@
-models/raw/
-models/processed/
+models/raw/*
+models/processed/*
+#!models/processed/modelo
 .venv
