@@ -11,7 +11,7 @@ var facingMode = "user"; //Para que funcione con el celular (user/environment)
 
 (async () => {
     console.log("Cargando modelo...");
-    modelo = await tf.loadLayersModel("models/processed/modelo/model.json");
+    modelo = await tf.loadLayersModel("models/processed/7_model/model.json");
     console.log("Modelo cargado...");
 })();
 

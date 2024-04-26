@@ -1,4 +1,4 @@
 models/raw/*
 models/processed/*
-!models/processed/modelo
+!models/processed/7_model
 .venv
